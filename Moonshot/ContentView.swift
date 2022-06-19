@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    let mission: [Mission] = Bundle.main.decode("missions.json")
+    
     var body: some View {
-        Text("Hello, world!")
+        Text("\(astronauts.count)")
             .padding()
     }
 }
@@ -17,5 +21,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .preferredColorScheme(.dark)
+            .previewDevice("iPhone 11 Pro")
     }
 }
