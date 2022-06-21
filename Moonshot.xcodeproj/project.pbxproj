@@ -19,6 +19,10 @@
 		BA4C6300285FE6AC00FCF248 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C62FF285FE6AC00FCF248 /* Color-Theme.swift */; };
 		BA4C6302285FED7800FCF248 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C6301285FED7800FCF248 /* MissionView.swift */; };
 		BA4C6304285FEDDB00FCF248 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C6303285FEDDB00FCF248 /* AstronautView.swift */; };
+		EF437CED2862551F00AD52F6 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF437CEC2862551F00AD52F6 /* CustomDivider.swift */; };
+		EF437CEF2862560100AD52F6 /* CrewRoster.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF437CEE2862560100AD52F6 /* CrewRoster.swift */; };
+		EF437CF12862580B00AD52F6 /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF437CF02862580B00AD52F6 /* GridLayout.swift */; };
+		EF437CF3286259F800AD52F6 /* ListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF437CF2286259F800AD52F6 /* ListLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		BA4C62FF285FE6AC00FCF248 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		BA4C6301285FED7800FCF248 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		BA4C6303285FEDDB00FCF248 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		EF437CEC2862551F00AD52F6 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		EF437CEE2862560100AD52F6 /* CrewRoster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewRoster.swift; sourceTree = "<group>"; };
+		EF437CF02862580B00AD52F6 /* GridLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayout.swift; sourceTree = "<group>"; };
+		EF437CF2286259F800AD52F6 /* ListLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +77,11 @@
 			children = (
 				BA1679BD285F973C000F49C0 /* MoonshotApp.swift */,
 				BA1679BF285F973C000F49C0 /* ContentView.swift */,
+				EF437CF02862580B00AD52F6 /* GridLayout.swift */,
+				EF437CF2286259F800AD52F6 /* ListLayout.swift */,
 				BA4C6301285FED7800FCF248 /* MissionView.swift */,
+				EF437CEE2862560100AD52F6 /* CrewRoster.swift */,
+				EF437CEC2862551F00AD52F6 /* CustomDivider.swift */,
 				BA4C62FF285FE6AC00FCF248 /* Color-Theme.swift */,
 				BA1679CF285FCF42000F49C0 /* Astronaut.swift */,
 				BA4C6303285FEDDB00FCF248 /* AstronautView.swift */,
@@ -166,11 +178,15 @@
 				BA4C6302285FED7800FCF248 /* MissionView.swift in Sources */,
 				BA1679D0285FCF42000F49C0 /* Astronaut.swift in Sources */,
 				BA4C6304285FEDDB00FCF248 /* AstronautView.swift in Sources */,
+				EF437CEF2862560100AD52F6 /* CrewRoster.swift in Sources */,
 				BA4C6300285FE6AC00FCF248 /* Color-Theme.swift in Sources */,
 				BA1679C0285F973C000F49C0 /* ContentView.swift in Sources */,
 				BA1679BE285F973C000F49C0 /* MoonshotApp.swift in Sources */,
 				BA1679D4285FD5B3000F49C0 /* Mission.swift in Sources */,
 				BA1679D2285FD391000F49C0 /* Bundle-Decodable.swift in Sources */,
+				EF437CF3286259F800AD52F6 /* ListLayout.swift in Sources */,
+				EF437CED2862551F00AD52F6 /* CustomDivider.swift in Sources */,
+				EF437CF12862580B00AD52F6 /* GridLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
