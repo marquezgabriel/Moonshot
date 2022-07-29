@@ -25,11 +25,12 @@ struct MissionView: View {
                         .scaledToFit()
                         .frame(maxWidth: geometry.size.width * 0.6)
                         .padding(.vertical)
+                        // .accessibilityLabel("The mission badge for \(mission.displayName)")
+                        .accessibilityLabel(mission.badge)
                     // Show date bellow mission image
                     if let date = mission.launchDate {
                         Label(date.formatted(date: .complete, time: .omitted), systemImage: "calendar")
                     }
-                    
                     VStack(alignment: .leading) {
                         CustomDivider()
                         
